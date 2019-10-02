@@ -1,0 +1,13 @@
+package funcion;
+public class Area{
+public double b;
+    public Area() {
+    }
+    public double esfera(double b){
+        double a;
+        
+        a= 4*Math.PI*Math.pow(b, 2);
+        
+     return a;
+    }
+}
