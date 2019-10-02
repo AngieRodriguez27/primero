@@ -1,0 +1,19 @@
+package funcion;
+import javax.swing.JOptionPane;
+public class Funcion {
+    Area are;
+    Volumen vol;
+    
+    public static void main(String[] args) {
+       Funcion f = new Funcion();
+       f.imprimir();
+    }
+    public void imprimir(){
+        are = new Area();
+        vol = new Volumen();
+        JOptionPane.showMessageDialog(null,"volumen de la esfera: "+vol.esferita(2.5));
+        JOptionPane.showMessageDialog(null,"area de la esfera: " +are.esfera(5.1));
+        
+  
+    }
+}
